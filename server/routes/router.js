@@ -21,5 +21,5 @@ route.get('/product_details',(req,res)=>res.render('product_details'))
 route.get('/products',(req,res)=>res.render('products'))
 route.get('/register',(req,res)=>res.render('register'))
 route.get('/sidebar',(req,res)=>res.render('sidebar'))
-
+route.get('/contact',(req,res)=>res.render('contact'))
 module.exports = route
