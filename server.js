@@ -8,7 +8,7 @@ const app = express();
 app.use(morgan('tiny'));
 app.use(bodyparser.urlencoded({extended:true}));
 
-app.use(express.static(path.join(__dirname, 'assets')));
+app.use(express.static(path.join(__dirname, 'public')));
 //app.use ('/',express.static(path.resolve("__dirname","assets")));
 //app.use ('assets',express.static(path.resolve("__dirname","assets")));
 
