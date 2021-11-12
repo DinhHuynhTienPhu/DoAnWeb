@@ -2,11 +2,10 @@
 
 const express = require("express");
 const route = express.Router();
-
 //home route
 route.get("/", (req, res) => res.render("index"));
 route.all("/about_us", (req, res) => res.render("about_us"));
-route.get("/cart", (req, res) => res.render("cart"));
+route.get("/cart", (req, res) => res.render("./Buyer/cart"));
 route.get("/compair", (req, res) => res.render("compair"));
 route.get("/footer", (req, res) => res.render("footer")); //just on debug to get footer
 route.get("/forget_password", (req, res) => res.render("forget_password"));
@@ -24,4 +23,11 @@ route.get("/register", (req, res) => res.render("register"));
 route.get("/sidebar", (req, res) => res.render("sidebar"));
 route.get("/contact", (req, res) => res.render("contact"));
 route.get("/my_account", (req, res) => res.render("my_account"));
+route.get("/searching", (req, res) => res.render("searching"));
+
+//seller
+route.get("/product_list", (req, res) => res.render("./Seller/product_list"));
+route.get("/product_edit", (req, res) => res.render("product_edit"));
+route.get("/product_add", (req, res) => res.render("product_add"));
+route.get("/1234", (req, res) => res.render("1234"));
 module.exports = route;

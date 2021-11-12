@@ -38,7 +38,7 @@
             </div>
             <a href="index"> <span class="icon-home"></span> Home</a>
             <a href="my_account"><span class="icon-user"></span> My Account</a>
-            <a href="register"><span class="icon-edit"></span> Free Register </a>
+            <a class="active" href="register"><span class="icon-edit"></span> Free Register </a>
             <a href="contact"><span class="icon-envelope"></span> Contact us</a>
             <a href="cart"><span class="icon-shopping-cart"></span> 2 Item(s) - <span class="badge badge-warning"> $448.42</span></a>
           </div>
@@ -96,7 +96,7 @@ Navigation Bar Section
                 <li class=""><a href="grid-view">Grid View</a></li>
                 <li class=""><a href="three-col">Three Column</a></li>
                 <li class=""><a href="four-col">Four Column</a></li>
-                <li class="active"><a href="general">General Content</a></li>
+                <li class=""><a href="general">General Content</a></li>
               </ul>
               <form action="#" class="navbar-search pull-left">
                 <input type="text" placeholder="Search" class="search-query span2" />
@@ -110,7 +110,7 @@ Navigation Bar Section
                         <input type="text" class="span2" id="inputEmail" placeholder="Email" />
                       </div>
                       <div class="control-group">
-                        <input type="password" class="span2" id="inputPassword" placeholder="Password" />
+                        <input type="password" class="span2" placeholder="Password" />
                       </div>
                       <div class="control-group">
                         <label class="checkbox">
@@ -148,6 +148,7 @@ Body Section
               <li> <a class="totalInCart" href="cart"><strong>Total Amount <span class="badge badge-warning pull-right" style="line-height:18px;">$448.42</span></strong></a></li>
             </ul>
           </div>
+
           <div class="well well-small alert alert-warning cntr">
             <h2>50% Discount</h2>
             <p>
@@ -196,154 +197,169 @@ Body Section
         <div class="span9">
           <ul class="breadcrumb">
             <li><a href="index">Home</a> <span class="divider">/</span></li>
-            <li class="active">itle here</li>
+            <li class="active">Editation</li>
           </ul>
-          <div class="well well-small">
-            <h1> Title of the page</h1>
-            <h2> Title of the page</h2>
-            <h3> Title of the page</h3>
-            <h4> Title of the page</h4>
-            <h5> Title of the page</h5>
-            <h6> Title of the page</h6>
-            <hr class="soft" />
-            <h2>List of the text</h2>
-
-            <h3>Unordered List</h3><br />
-            <ul>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum varius dapibus. </li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum varius dapibus. Sed hendrerit </li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum varius dapibus. Sed hendrerit porta.</li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum varius dapibus. Sed hendrerit porta felis .</li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum varius dapibus. Sed hendrerit porta felis at sollicitudin.</li>
-            </ul>
-            <h3>Ordered List</h3><br />
-            <ol>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum varius dapibus. </li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum varius dapibus. Sed hendrerit </li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum varius dapibus. Sed hendrerit porta.</li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum varius dapibus. Sed hendrerit porta felis .</li>
-              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam elementum varius dapibus. Sed hendrerit porta felis at sollicitudin.</li>
-            </ol>
-            <hr class="soft" />
-            <h2>Paragraph</h2>
-            <p>
-              Sed at nunc ac neque semper fermentum. Proin diam sem, semper fermentum eleifend nec, viverra ac est. Sed ultricies, lectus et vehicula imperdiet, felis tortor vehicula turpis, non fermentum enim est et sapien. Nam justo mi, dignissim a euismod ut, pretium sed leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In viverra porta est, consequat elementum metus tristique a. Mauris tempus tellus a metus dapibus faucibus egestas lectus consectetur. Integer libero dolor, luctus non congue vitae, tempus ut neque. Nunc eleifend lorem quis diam pharetra sagittis. Aliquam ut dolor dui. Fusce dictum facilisis ipsum eu porttitor. In ultricies rhoncus tortor vitae tincidunt.
-            </p>
-
-            <h5>Lorem ipsum dolor sit amet</h5><br />
-            <p>
-              Nullam a vulputate leo. Nulla tristique metus eros. Curabitur ultrices commodo mauris, sit amet faucibus lectus fermentum in. Nulla eleifend, augue hendrerit tempus faucibus, diam lacus aliquet urna, eget facilisis turpis risus quis arcu. Cras placerat suscipit sem, ac consequat dui iaculis eu. Cras elit enim, adipiscing lobortis rutrum ac, vehicula nec massa. Praesent pharetra ligula ac erat venenatis feugiat. Quisque id nulla mi. Mauris at orci nec nisi eleifend auctor.
-            </p>
-
-            <hr class="soft" />
-            <h2>Table</h2>
-            <table class="table table-condensed">
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <th>First Name</th>
-                  <th>Last Name</th>
-                  <th>Username</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                </tr>
-                <tr>
-                  <td>2</td>
-                  <td>Jacob</td>
-                  <td>Thornton</td>
-                  <td>@fat</td>
-                </tr>
-                <tr>
-                  <td>3</td>
-                  <td colspan="2">Larry the Bird</td>
-                  <td>@twitter</td>
-                </tr>
-              </tbody>
-            </table>
-            <br />
-            <br />
-            <table class="table table-bordered">
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <th>First Name</th>
-                  <th>Last Name</th>
-                  <th>Username</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td rowspan="2">1</td>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                </tr>
-                <tr>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@TwBootstrap</td>
-                </tr>
-                <tr>
-                  <td>2</td>
-                  <td>Jacob</td>
-                  <td>Thornton</td>
-                  <td>@fat</td>
-                </tr>
-                <tr>
-                  <td>3</td>
-                  <td colspan="2">Larry the Bird</td>
-                  <td>@twitter</td>
-                </tr>
-              </tbody>
-            </table>
-            <hr />
-            <h2>Form with validation states</h2><br />
-
-            <form class="bs-docs-example form-horizontal">
-              <div class="control-group warning">
-                <label class="control-label" for="inputWarning">Input with warning</label>
+          <h3> Editation</h3>
+          <hr class="soft" />
+          <div class="well">
+            <form class="form-horizontal">
+              <h3>Current Product Detail</h3>
+              <div class="control-group">
+                <label class="control-label" for="outputProductName">Product name<sup>*</sup></label>
                 <div class="controls">
-                  <input type="text" id="inputWarning" />
-                  <span class="help-inline">Something may have gone wrong</span>
+                  <input type="text" id="outputProductName" placeholder="Product Name" />
                 </div>
               </div>
-              <div class="control-group error">
-                <label class="control-label" for="inputError">Input with error</label>
+              <div class="control-group">
+                <label class="control-label">Product Type <sup>*</sup></label>
                 <div class="controls">
-                  <input type="text" id="inputError" />
-                  <span class="help-inline">Please correct the error</span>
+                  <select class="span1" name="days">
+                    <option value="">-</option>
+                    <option value="1">Shoe</option>
+                    <option value="2">Clothe</option>
+                    <option value="3">Watch</option>
+                  </select>
                 </div>
               </div>
-              <div class="control-group info">
-                <label class="control-label" for="inputInfo">Input with info</label>
+              <div class="control-group">
+                <label class="control-label" for="outputPrice">Price <sup>*</sup></label>
                 <div class="controls">
-                  <input type="text" id="inputInfo" />
-                  <span class="help-inline">Username is taken</span>
+                  <input type="text" id="outputPrice" placeholder="Last Name" />
                 </div>
               </div>
-              <div class="control-group success">
-                <label class="control-label" for="inputSuccess">Input with success</label>
+              <div class="control-group">
+                <label class="control-label" for="outputProducer">Producer <sup>*</sup></label>
                 <div class="controls">
-                  <input type="text" id="inputSuccess" />
-                  <span class="help-inline">Woohoo!</span>
+                  <input type="text" id="outputProducer" placeholder="Producer" />
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label" for="inputDescription"> Description<sup>*</sup></label>
+                <div class="controls">
+                  <input type="text" id="inputDescription" placeholder="Description" />
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label">Upload day <sup>*</sup></label>
+                <div class="controls">
+                  <select class="span1" name="days">
+                    <option value="">-</option>
+                    <option value="1">1&nbsp;&nbsp;</option>
+                    <option value="2">2&nbsp;&nbsp;</option>
+                    <option value="3">3&nbsp;&nbsp;</option>
+                    <option value="4">4&nbsp;&nbsp;</option>
+                    <option value="5">5&nbsp;&nbsp;</option>
+                    <option value="6">6&nbsp;&nbsp;</option>
+                    <option value="7">7&nbsp;&nbsp;</option>
+                  </select>
+                  <select class="span1" name="days">
+                    <option value="">-</option>
+                    <option value="1">1&nbsp;&nbsp;</option>
+                    <option value="2">2&nbsp;&nbsp;</option>
+                    <option value="3">3&nbsp;&nbsp;</option>
+                    <option value="4">4&nbsp;&nbsp;</option>
+                    <option value="5">5&nbsp;&nbsp;</option>
+                    <option value="6">6&nbsp;&nbsp;</option>
+                    <option value="7">7&nbsp;&nbsp;</option>
+                  </select>
+                  <select class="span1" name="days">
+                    <option value="">-</option>
+                    <option value="1">1&nbsp;&nbsp;</option>
+                    <option value="2">2&nbsp;&nbsp;</option>
+                    <option value="3">3&nbsp;&nbsp;</option>
+                    <option value="4">4&nbsp;&nbsp;</option>
+                    <option value="5">5&nbsp;&nbsp;</option>
+                    <option value="6">6&nbsp;&nbsp;</option>
+                    <option value="7">7&nbsp;&nbsp;</option>
+                  </select>
                 </div>
               </div>
             </form>
-
-            <h5>Lorem ipsum dolor sit amet</h5><br />
-            <p>
-              Aliquam interdum, ipsum a posuere dictum, tellus risus blandit dolor, at tristique sapien urna vel purus. Pellentesque in dictum urna. Sed feugiat libero sit amet arcu malesuada eu convallis dui convallis. Donec facilisis massa a ipsum aliquam lobortis. Praesent ac lectus sed leo aliquam egestas. Sed ante neque, volutpat ac tempor et, bibendum at ligula. Nunc porta vestibulum sodales.
-            </p>
           </div>
+          <div class="well">
+            <form class="form-horizontal">
+              <h3>Current Product Detail</h3>
+              <div class="control-group">
+                <label class="control-label" for="editProductName">Product name<sup>*</sup></label>
+                <div class="controls">
+                  <input type="text" id="editProductName" placeholder="Product Name" />
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label">Product Type <sup>*</sup></label>
+                <div class="controls">
+                  <select class="span1" name="days">
+                    <option value="">-</option>
+                    <option value="1">Shoe</option>
+                    <option value="2">Clothe</option>
+                    <option value="3">Watch</option>
+                  </select>
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label" for="editPrice">Price <sup>*</sup></label>
+                <div class="controls">
+                  <input type="text" id="editPrice" placeholder="Last Name" />
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label" for="editProducer">Producer <sup>*</sup></label>
+                <div class="controls">
+                  <input type="text" id="editProducer" placeholder="Producer" />
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label" for="editDescription"> Description<sup>*</sup></label>
+                <div class="controls">
+                  <input type="text" id="editDescription" placeholder="Description" />
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label">Upload day <sup>*</sup></label>
+                <div class="controls">
+                  <select class="span1" name="days">
+                    <option value="">-</option>
+                    <option value="1">1&nbsp;&nbsp;</option>
+                    <option value="2">2&nbsp;&nbsp;</option>
+                    <option value="3">3&nbsp;&nbsp;</option>
+                    <option value="4">4&nbsp;&nbsp;</option>
+                    <option value="5">5&nbsp;&nbsp;</option>
+                    <option value="6">6&nbsp;&nbsp;</option>
+                    <option value="7">7&nbsp;&nbsp;</option>
+                  </select>
+                  <select class="span1" name="days">
+                    <option value="">-</option>
+                    <option value="1">1&nbsp;&nbsp;</option>
+                    <option value="2">2&nbsp;&nbsp;</option>
+                    <option value="3">3&nbsp;&nbsp;</option>
+                    <option value="4">4&nbsp;&nbsp;</option>
+                    <option value="5">5&nbsp;&nbsp;</option>
+                    <option value="6">6&nbsp;&nbsp;</option>
+                    <option value="7">7&nbsp;&nbsp;</option>
+                  </select>
+                  <select class="span1" name="days">
+                    <option value="">-</option>
+                    <option value="1">1&nbsp;&nbsp;</option>
+                    <option value="2">2&nbsp;&nbsp;</option>
+                    <option value="3">3&nbsp;&nbsp;</option>
+                    <option value="4">4&nbsp;&nbsp;</option>
+                    <option value="5">5&nbsp;&nbsp;</option>
+                    <option value="6">6&nbsp;&nbsp;</option>
+                    <option value="7">7&nbsp;&nbsp;</option>
+                  </select>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="controls">
+                  <input type="submit" name="submitAccount" value="Save" class="exclusive shopBtn" />
+                </div>
+            </form>
+          </div>
+
         </div>
       </div>
       <!-- 
+              </div>
 Clients 
 -->
       <section class="our_client">
