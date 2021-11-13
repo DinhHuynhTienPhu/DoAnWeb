@@ -28,4 +28,11 @@ route.get("/product_list", (req, res) => res.render("./Seller/product_list"));
 route.get("/product_edit", (req, res) => res.render("./Seller/product_edit"));
 route.get("/product_add", (req, res) => res.render("./Seller/product_add"));
 route.get("/product_details_Seller", (req, res) => res.render("./Seller/product_details_Seller"));
+
+//admin route
+route.get("/admin_list", (req, res) => res.render("./Admin/list"));
+route.get("/admin_user_details", (req, res) => res.render("./Admin/user-details"));
+route.get("/admin_product_details", (req, res) => res.render("./Admin/product-details"));
+route.get("/admin_product_list", (req, res) => res.render("./Admin/product-list"));
+
 module.exports = route;
