@@ -1,82 +1,5 @@
-<head>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-</head>
 <section style="background-color: #eee; ">
-  <div id="search">
-    <section class="border p-4 mb-4 d-flex align-items-center flex-column">
-      <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <!-- Container wrapper -->
-        <div class="container-fluid">
-          <!-- Navbar brand -->
-          <a class="navbar-brand" href="admin_list"><img src="assets/img/logo-bootstrap-shoping-cart.png"
-              alt="bootstrap sexy shop"></a>
 
-          <!-- Toggle button -->
-          <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-            data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
-          </button>
-
-          <!-- Collapsible wrapper -->
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <!-- Left links -->
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-fill">
-
-              <li class="nav-item">
-                <a class="nav-link active" href="admin_list">Users</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="admin_list">Seller</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="admin_list">Buyer</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="admin_list">Product</a>
-              </li>
-
-
-            </ul>
-            <!-- Left links -->
-
-            <!-- Search form -->
-            <div class="input-group ps-5">
-              <div id="navbar-search-autocomplete" class="form-outline">
-                <div class="input-group">
-                  <button class="btn btn-info"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                      fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                      <path
-                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-                    </svg></button>
-                  <input type="text" class="form-control" placeholder="search" aria-describedby="basic-addon1">
-                </div>
-              </div>
-
-            </div>
-            <button type="button" class="btn btn-danger">Logout</button>
-
-          </div>
-          <!-- Collapsible wrapper -->
-        </div>
-        <!-- Container wrapper -->
-      </nav>
-      <!-- Navbar -->
-    </section>
-  </div>
   <div class="container py-5 h-100">
     <div class="row d-flex justify-content-center align-items-center h-100">
       <div class="col-md-12 col-xl-10">
@@ -121,15 +44,55 @@
 
               </div>
             </span>
-                        <span>
+            <span>
               <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="sr-only">Origin</span>
               </button>
               <div class="dropdown-menu">
                 <a class="dropdown-item" href="#">All</a>
-                                <input type="text"></a>
+                <row class="row justify-content-center"> <input class="col-10" type="text" placeholder="Origin"></a>
+                </row>
 
+              </div>
+            </span>
+             <span>
+              <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Type</span>
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">All</a>
+                <a class="dropdown-item" href="#">Shoes</a>
+                <a class="dropdown-item" href="#">Clothes</a>
+                <a class="dropdown-item" href="#">Watches</a>
+                <a class="dropdown-item" href="#">Phones</a>
+                <a class="dropdown-item" href="#">Televisions</a>
+                 <row class="row justify-content-center"> <input class="col-10" type="text" placeholder="Type"></a>
+
+              </div>
+            </span>
+             <span>
+              <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Producer</span>
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Apple</a>
+                <a class="dropdown-item" href="#">Samsung</a>
+                <a class="dropdown-item" href="#">Xiaomi</a>
+ <row class="row justify-content-center"> <input class="col-10" type="text" placeholder="Producer"></a>
+                </row>
+              </div>
+            </span>
+            <span>
+              <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Price</span>
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">All</a>
+                <row class="justify-content-center"> <span><input type="text" placeholder="min" /> </span> to <span><input type="text" placeholder="max" /> </span> </row>
               </div>
             </span>
           </div>
@@ -147,13 +110,13 @@
               <tbody>
                 <tr class="fw-normal">
                   <th>
-                    <img src="assets/img/c.jpg"
-                      class="shadow-1-strong rounded-circle" alt="avatar 1" style="width: 55px; height: auto;">
+                    <img src="assets/img/c.jpg" class="shadow-1-strong rounded-circle" alt="avatar 1"
+                      style="width: 55px; height: auto;">
                     <a href="admin_product_details"> <span class="ms-2">Smart Band</span></a>
                   </th>
                   <td class="align-middle">
                     <span class="badge bg-primary">Product </span> <span class="badge bg-warning">Reported
-                    </span><span><br/> Last buy: 6 days <br /></span>
+                    </span><span><br /> Last buy: 6 days <br /></span>
                   </td>
                   <td class="align-middle">
                     <h6 class="mb-0"><span class="badge bg-info">Active</span></h6>
@@ -167,19 +130,18 @@
                 </tr>
                 <tr class="fw-normal">
                   <th>
-                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-1.jpg"
-                      class="shadow-1-strong rounded-circle" alt="avatar 1" style="width: 55px; height: auto;">
-                    <a href="admin_user_details"> <span class="ms-2">Alice Mayer</span></a>
+                    <img src="assets/img/a.jpg" class="shadow-1-strong rounded-circle" alt="avatar 1"
+                      style="width: 55px; height: auto;">
+                    <a href="admin_product_details"> <span class="ms-2">Super Luxury Watch</span></a>
                   </th>
                   <td class="align-middle">
-                    <span class="badge bg-primary">Seller </span> <span class="badge bg-warning">Reported
-                    </span><span>Last active: 6 days <br /> Selling 6 products</span>
+                    <span class="badge bg-primary">Product </span> <span><br /> Last buy: 1 days <br /></span>
                   </td>
                   <td class="align-middle">
                     <h6 class="mb-0"><span class="badge bg-info">Active</span></h6>
                   </td>
                   <td class="align-middle">
-                    <span><a href="admin_user_details"> <button type="button"
+                    <span><a href="admin_product_details"><button type="button"
                           class="btn btn-primary">Details</button></a></span>
                     <span><button type="button" class="btn btn-danger">Block</button></span>
                     <span> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></span>
@@ -187,19 +149,38 @@
                 </tr>
                 <tr class="fw-normal">
                   <th>
-                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-5.jpg"
-                      class="shadow-1-strong rounded-circle" alt="avatar 1" style="width: 55px; height: auto;">
-                    <a href="admin_user_details"> <span class="ms-2">Alice Mayer</span></a>
+                    <img src="assets/img/b.jpg" class="shadow-1-strong rounded-circle" alt="avatar 1"
+                      style="width: 55px; height: auto;">
+                    <a href="admin_product_details"> <span class="ms-2">Rings</span></a>
                   </th>
                   <td class="align-middle">
-                    <span class="badge bg-secondary">Buyer </span> <span>Last active: 6 days <br /> Selling 6
-                      products</span>
+                    <span class="badge bg-primary">Product </span> <span class="badge bg-warning">Reported
+                    </span><span><br /> Last buy: 6 days <br /></span>
+                  </td>
+                  <td class="align-middle">
+                    <h6 class="mb-0"><span class="badge bg-dark">Blocked</span></h6>
+                  </td>
+                  <td class="align-middle">
+                    <span><a href="admin_product_details"><button type="button"
+                          class="btn btn-primary">Details</button></a></span>
+                    <span><button type="button" class="btn btn-danger">Block</button></span>
+                    <span> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></span>
+                  </td>
+                </tr>
+                <tr class="fw-normal">
+                  <th>
+                    <img src="assets/img/d.jpg" class="shadow-1-strong rounded-circle" alt="avatar 1"
+                      style="width: 55px; height: auto;">
+                    <a href="admin_product_details"> <span class="ms-2">Smart Band</span></a>
+                  </th>
+                  <td class="align-middle">
+                    <span class="badge bg-primary">Product </span> <span><br /> Last buy: 112 days <br /></span>
                   </td>
                   <td class="align-middle">
                     <h6 class="mb-0"><span class="badge bg-info">Active</span></h6>
                   </td>
                   <td class="align-middle">
-                    <span> <a href="admin_user_details"><button type="button"
+                    <span><a href="admin_product_details"><button type="button"
                           class="btn btn-primary">Details</button></a></span>
                     <span><button type="button" class="btn btn-danger">Block</button></span>
                     <span> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></span>
@@ -207,19 +188,19 @@
                 </tr>
                 <tr class="fw-normal">
                   <th>
-                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-2.jpg"
-                      class="shadow-1-strong rounded-circle" alt="avatar 1" style="width: 55px; height: auto;">
-                    <a href="admin_user_details"> <span class="ms-2">Alice Mayer</span> </a>
+                    <img src="assets/img/e.jpg" class="shadow-1-strong rounded-circle" alt="avatar 1"
+                      style="width: 55px; height: auto;">
+                    <a href="admin_product_details"> <span class="ms-2">Ring Pro Plus 7</span></a>
                   </th>
                   <td class="align-middle">
-                    <span class="badge bg-secondary">Buyer </span> <span>Last active: 6 days <br /> Selling 6
-                      products</span>
+                    <span class="badge bg-primary">Product </span> <span class="badge bg-warning">Reported
+                    </span><span><br /> Last buy: 6 days <br /></span>
                   </td>
                   <td class="align-middle">
                     <h6 class="mb-0"><span class="badge bg-dark">Blocked</span></h6>
                   </td>
                   <td class="align-middle">
-                    <span> <a href="admin_user_details"><button type="button"
+                    <span><a href="admin_product_details"><button type="button"
                           class="btn btn-primary">Details</button></a></span>
                     <span><button type="button" class="btn btn-danger">Block</button></span>
                     <span> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></span>
@@ -227,19 +208,19 @@
                 </tr>
                 <tr class="fw-normal">
                   <th>
-                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-2.jpg"
-                      class="shadow-1-strong rounded-circle" alt="avatar 1" style="width: 55px; height: auto;">
-                    <a href="admin_user_details"> <span class="ms-2">Alice Mayer</span> </a>
+                    <img src="assets/img/c.jpg" class="shadow-1-strong rounded-circle" alt="avatar 1"
+                      style="width: 55px; height: auto;">
+                    <a href="admin_product_details"> <span class="ms-2">Smart Band</span></a>
                   </th>
                   <td class="align-middle">
-                    <span class="badge bg-secondary">Buyer </span> <span>Last active: 6 days <br /> Selling 6
-                      products</span>
+                    <span class="badge bg-primary">Product </span> <span class="badge bg-warning">Reported
+                    </span><span><br /> Last buy: 6 days <br /></span>
                   </td>
                   <td class="align-middle">
-                    <h6 class="mb-0"><span class="badge bg-dark">Blocked</span></h6>
+                    <h6 class="mb-0"><span class="badge bg-info">Active</span></h6>
                   </td>
                   <td class="align-middle">
-                    <span> <a href="admin_user_details"><button type="button"
+                    <span><a href="admin_product_details"><button type="button"
                           class="btn btn-primary">Details</button></a></span>
                     <span><button type="button" class="btn btn-danger">Block</button></span>
                     <span> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></span>
@@ -247,19 +228,18 @@
                 </tr>
                 <tr class="fw-normal">
                   <th>
-                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-2.jpg"
-                      class="shadow-1-strong rounded-circle" alt="avatar 1" style="width: 55px; height: auto;">
-                    <a href="admin_user_details"> <span class="ms-2">Alice Mayer</span> </a>
+                    <img src="assets/img/a.jpg" class="shadow-1-strong rounded-circle" alt="avatar 1"
+                      style="width: 55px; height: auto;">
+                    <a href="admin_product_details"> <span class="ms-2">Super Luxury Watch</span></a>
                   </th>
                   <td class="align-middle">
-                    <span class="badge bg-secondary">Buyer </span> <span>Last active: 6 days <br /> Selling 6
-                      products</span>
+                    <span class="badge bg-primary">Product </span> <span><br /> Last buy: 1 days <br /></span>
                   </td>
                   <td class="align-middle">
-                    <h6 class="mb-0"><span class="badge bg-dark">Blocked</span></h6>
+                    <h6 class="mb-0"><span class="badge bg-info">Active</span></h6>
                   </td>
                   <td class="align-middle">
-                    <span> <a href="admin_user_details"><button type="button"
+                    <span><a href="admin_product_details"><button type="button"
                           class="btn btn-primary">Details</button></a></span>
                     <span><button type="button" class="btn btn-danger">Block</button></span>
                     <span> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></span>
@@ -267,19 +247,19 @@
                 </tr>
                 <tr class="fw-normal">
                   <th>
-                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-2.jpg"
-                      class="shadow-1-strong rounded-circle" alt="avatar 1" style="width: 55px; height: auto;">
-                    <a href="admin_user_details"> <span class="ms-2">Alice Mayer</span> </a>
+                    <img src="assets/img/b.jpg" class="shadow-1-strong rounded-circle" alt="avatar 1"
+                      style="width: 55px; height: auto;">
+                    <a href="admin_product_details"> <span class="ms-2">Rings</span></a>
                   </th>
                   <td class="align-middle">
-                    <span class="badge bg-secondary">Buyer </span> <span>Last active: 6 days <br /> Selling 6
-                      products</span>
+                    <span class="badge bg-primary">Product </span> <span class="badge bg-warning">Reported
+                    </span><span><br /> Last buy: 6 days <br /></span>
                   </td>
                   <td class="align-middle">
                     <h6 class="mb-0"><span class="badge bg-dark">Blocked</span></h6>
                   </td>
                   <td class="align-middle">
-                    <span> <a href="admin_user_details"><button type="button"
+                    <span><a href="admin_product_details"><button type="button"
                           class="btn btn-primary">Details</button></a></span>
                     <span><button type="button" class="btn btn-danger">Block</button></span>
                     <span> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></span>
@@ -287,19 +267,18 @@
                 </tr>
                 <tr class="fw-normal">
                   <th>
-                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-2.jpg"
-                      class="shadow-1-strong rounded-circle" alt="avatar 1" style="width: 55px; height: auto;">
-                    <a href="admin_user_details"> <span class="ms-2">Alice Mayer</span> </a>
+                    <img src="assets/img/d.jpg" class="shadow-1-strong rounded-circle" alt="avatar 1"
+                      style="width: 55px; height: auto;">
+                    <a href="admin_product_details"> <span class="ms-2">Smart Band</span></a>
                   </th>
                   <td class="align-middle">
-                    <span class="badge bg-secondary">Buyer </span> <span>Last active: 6 days <br /> Selling 6
-                      products</span>
+                    <span class="badge bg-primary">Product </span> <span><br /> Last buy: 112 days <br /></span>
                   </td>
                   <td class="align-middle">
-                    <h6 class="mb-0"><span class="badge bg-dark">Blocked</span></h6>
+                    <h6 class="mb-0"><span class="badge bg-info">Active</span></h6>
                   </td>
                   <td class="align-middle">
-                    <span> <a href="admin_user_details"><button type="button"
+                    <span><a href="admin_product_details"><button type="button"
                           class="btn btn-primary">Details</button></a></span>
                     <span><button type="button" class="btn btn-danger">Block</button></span>
                     <span> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></span>
@@ -307,19 +286,19 @@
                 </tr>
                 <tr class="fw-normal">
                   <th>
-                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-2.jpg"
-                      class="shadow-1-strong rounded-circle" alt="avatar 1" style="width: 55px; height: auto;">
-                    <a href="admin_user_details"> <span class="ms-2">Alice Mayer</span> </a>
+                    <img src="assets/img/e.jpg" class="shadow-1-strong rounded-circle" alt="avatar 1"
+                      style="width: 55px; height: auto;">
+                    <a href="admin_product_details"> <span class="ms-2">Ring Pro Plus 7</span></a>
                   </th>
                   <td class="align-middle">
-                    <span class="badge bg-secondary">Buyer </span> <span>Last active: 6 days <br /> Selling 6
-                      products</span>
+                    <span class="badge bg-primary">Product </span> <span class="badge bg-warning">Reported
+                    </span><span><br /> Last buy: 6 days <br /></span>
                   </td>
                   <td class="align-middle">
                     <h6 class="mb-0"><span class="badge bg-dark">Blocked</span></h6>
                   </td>
                   <td class="align-middle">
-                    <span> <a href="admin_user_details"><button type="button"
+                    <span><a href="admin_product_details"><button type="button"
                           class="btn btn-primary">Details</button></a></span>
                     <span><button type="button" class="btn btn-danger">Block</button></span>
                     <span> <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></span>

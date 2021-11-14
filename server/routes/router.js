@@ -30,9 +30,10 @@ route.get("/product_add", (req, res) => res.render("./Seller/product_add"));
 route.get("/product_details_Seller", (req, res) => res.render("./Seller/product_details_Seller"));
 
 //admin route
-route.get("/admin_list", (req, res) => res.render("./Admin/list"));
-route.get("/admin_user_details", (req, res) => res.render("./Admin/user-details"));
-route.get("/admin_product_details", (req, res) => res.render("./Admin/product-details"));
-route.get("/admin_product_list", (req, res) => res.render("./Admin/product-list"));
+route.get("/admin_layout",(req, res) => res.render("./Admin/admin-layout"))
+route.get("/admin_list", (req, res) =>res.render('./Admin/list', { title: 'List', layout: './Admin/admin-layout' }));
+route.get("/admin_user_details", (req, res) => res.render("./Admin/user-details", { title: 'user details', layout: './Admin/admin-layout' }));
+route.get("/admin_product_details", (req, res) => res.render("./Admin/product-details", { title: 'product details', layout: './Admin/admin-layout' }));
+route.get("/admin_product_list", (req, res) => res.render("./Admin/product-list", { title: 'product list', layout: './Admin/admin-layout' }));
 
 module.exports = route;
