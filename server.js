@@ -3,8 +3,11 @@ const morgan =require('morgan');
 const bodyparser = require('body-parser')
 const exhbs = require('express-handlebars');
 const path = require('path'); 
+const dotenv=require('dotenv');
+
 
 const app = express();
+dotenv.config({path:'config.env'})
 app.use(morgan('tiny'));
 app.use(bodyparser.urlencoded({extended:true}));
 
@@ -19,4 +22,6 @@ app.get('/', (rq,res)=>{
     res.render('index');
 });
 
-app.listen(3000, ()=>console.log('server is running on local host '+ 3000+' ^_^ '));
+const PORT=process.env.PORT||8080
+
+app.listen(PORT, ()=>console.log('server is running on local host '+ PORT+' ^_^ '));
