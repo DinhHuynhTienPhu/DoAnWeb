@@ -35,5 +35,7 @@ route.get("/admin_list", (req, res) =>res.render('./Admin/list', { title: 'List'
 route.get("/admin_user_details", (req, res) => res.render("./Admin/user-details", { title: 'user details', layout: './Admin/admin-layout' }));
 route.get("/admin_product_details", (req, res) => res.render("./Admin/product-details", { title: 'product details', layout: './Admin/admin-layout' }));
 route.get("/admin_product_list", (req, res) => res.render("./Admin/product-list", { title: 'product list', layout: './Admin/admin-layout' }));
+route.get("/admin_statistic", (req, res) => res.render("./Admin/statistic", { title: 'statistic', layout: './Admin/admin-layout' }));
+route.get("/admin_order_list", (req, res) => res.render("./Admin/order-list", { title: 'statistic', layout: './Admin/admin-layout' }));
 
 module.exports = route;
